@@ -10,6 +10,7 @@
     <url>http://maven.apache.org</url>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- spring版本号 -->
         <spring.version>4.0.2.RELEASE</spring.version>
         <!-- mybatis版本号 -->
@@ -257,7 +258,6 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
-                    <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
         </plugins>

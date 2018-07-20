@@ -245,8 +245,8 @@
             <artifactId>xbean-spring</artifactId>
             <version>3.18</version>
         </dependency>
-
     </dependencies>
+
     <build>
         <finalName>ssm</finalName>
         <plugins>
@@ -257,6 +257,7 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
+                    <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
         </plugins>
